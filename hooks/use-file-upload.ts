@@ -1,7 +1,6 @@
 'use client';
 
-import type React from 'react';
-import { useCallback, useRef, useState, type ChangeEvent, type DragEvent, type InputHTMLAttributes } from 'react';
+import { useCallback, useRef, useState, type ChangeEvent, type DragEvent, type InputHTMLAttributes, type Ref } from 'react';
 
 export type FileMetadata = {
   name: string;
@@ -45,7 +44,7 @@ export type FileUploadActions = {
   handleFileChange: (e: ChangeEvent<HTMLInputElement>) => void;
   openFileDialog: () => void;
   getInputProps: (props?: InputHTMLAttributes<HTMLInputElement>) => InputHTMLAttributes<HTMLInputElement> & {
-    ref: React.Ref<HTMLInputElement>;
+    ref: Ref<HTMLInputElement>;
   };
 };
 
