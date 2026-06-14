@@ -1,0 +1,308 @@
+{
+  "common": {
+    "buttons": {
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "add": "إضافة",
+      "remove": "إزالة",
+      "submit": "إرسال",
+      "close": "إغلاق",
+      "search": "بحث",
+      "filter": "فلتر",
+      "export": "تصدير",
+      "print": "طباعة",
+      "back": "رجوع",
+      "next": "التالي",
+      "prev": "السابق",
+      "confirm": "تأكيد",
+      "yes": "نعم",
+      "no": "لا"
+    },
+    "labels": {
+      "name": "الاسم",
+      "nameAr": "الاسم بالعربية",
+      "nameEn": "الاسم بالإنجليزية",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "username": "اسم المستخدم",
+      "phone": "الهاتف",
+      "address": "العنوان",
+      "region": "المنطقة",
+      "status": "الحالة",
+      "capacity": "السعة",
+      "supervisor": "المشرف",
+      "notes": "ملاحظات",
+      "type": "النوع",
+      "date": "التاريخ",
+      "actions": "الإجراءات",
+      "all": "الكل",
+      "total": "الإجمالي",
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "messages": {
+      "welcome": "مرحباً",
+      "loading": "جاري التحميل...",
+      "error": "حدث خطأ",
+      "success": "تمت العملية بنجاح",
+      "confirm": "هل أنت متأكد؟",
+      "noData": "لا توجد بيانات تطابق البحث",
+      "deleteConfirm": "هل تريد حذف هذا العنصر؟",
+      "saved": "تم الحفظ بنجاح",
+      "deleted": "تم الحذف بنجاح",
+      "fetchError": "فشل جلب البيانات",
+      "saveError": "فشل الحفظ",
+      "deleteError": "فشل الحذف",
+      "required": "هذا الحقل مطلوب",
+      "searchPlaceholder": "بحث..."
+    }
+  },
+  "nav": {
+    "dashboard": "لوحات التحكم",
+    "projects": "إدارة المشاريع",
+    "medical": "الخدمات الطبية والصحية",
+    "medicalHome": "الصفحة الرئيسية",
+    "patients": "جدول المرضى",
+    "addresses": "جدول العناوين",
+    "hospitals": "جدول المستشفيات",
+    "departments": "جدول الأقسام",
+    "services": "جدول الخدمات",
+    "doctors": "جدول الأطباء",
+    "pharmacies": "جدول الصيدليات",
+    "clinics": "جدول العيادات",
+    "education": "الخدمات التعليمية والطلاب",
+    "eduCamps": "أماكن خيام التعليم",
+    "psychological": "مراكز الدعم النفسي",
+    "internet": "نقاط الإنترنت للدراسة",
+    "studentIssues": "قضايا الطلاب والتعليم",
+    "schools": "جدول المدارس",
+    "students": "جدول الطلاب",
+    "foodWater": "الغذاء والمياه (المعونات)",
+    "waterPoints": "نقاط توزيع المياه",
+    "foodPoints": "نقاط توزيع الطعام",
+    "distributions": "التوزيعات المؤسساتية",
+    "products": "المنتجات",
+    "beneficiaries": "المستفيدون",
+    "camps": "المراكز الإيوائية",
+    "shelters": "جدول مركز الإيواء",
+    "supervisors": "جدول المشرفين",
+    "emergency": "جدول الطوارئ",
+    "institutions": "المؤسسات الداعمة",
+    "institutionList": "المؤسسات",
+    "institutionalServices": "الخدمات المؤسساتية",
+    "enterpriseProducts": "منتجات المؤسسات",
+    "institutionService": "خدمات المؤسسة",
+    "adminPanel": "لوحة تحكم المسؤول",
+    "registerBeneficiary": "تسجيل مستفيد",
+    "addAid": "إضافة مساعدة",
+    "distributeAid": "توزيع المساعدات",
+    "addPlaces": "إضافة مكان",
+    "mapPreview": "الخريطة",
+    "profile": "الملف الشخصي"
+  },
+  "pages": {
+    "home": {
+      "title": "لوحة التحكم",
+      "subtitle": "نظرة عامة على بيانات منظومة الإغاثة",
+      "description": "مرحباً بك في تطبيقنا"
+    },
+    "account": {
+      "title": "إعدادات الحساب",
+      "notifications": {
+        "title": "الإشعارات",
+        "description": "إدارة تفضيلات الإشعارات"
+      }
+    },
+    "shelters": {
+      "title": "إدارة مراكز الإيواء",
+      "addTitle": "إضافة مركز إيواء جديد",
+      "editTitle": "تعديل بيانات المركز",
+      "name": "اسم المركز",
+      "supervisor": "المشرف",
+      "phone": "الهاتف",
+      "capacity": "السعة",
+      "region": "المنطقة",
+      "status": "الحالة",
+      "full": "ممتلئ",
+      "notFull": "غير ممتلئ",
+      "allStatuses": "كل الحالات",
+      "addButton": "إضافة مركز إيواء",
+      "regions": {
+        "east": "شرق",
+        "west": "غرب",
+        "north": "شمال",
+        "south": "جنوب"
+      }
+    },
+    "hospitals": {
+      "title": "إدارة المستشفيات",
+      "addTitle": "إضافة مستشفى جديد",
+      "editTitle": "تعديل بيانات المستشفى",
+      "name": "اسم المستشفى",
+      "type": "النوع",
+      "status": "الحالة",
+      "addButton": "إضافة مستشفى",
+      "allTypes": "كل الأنواع",
+      "allStatuses": "كل الحالات",
+      "types": {
+        "government": "حكومي",
+        "private": "خاص",
+        "field": "ميداني",
+        "clinic": "عيادة"
+      },
+      "statuses": {
+        "active": "نشط",
+        "inactive": "خارج الخدمة",
+        "partial": "جزئي"
+      }
+    },
+    "beneficiaries": {
+      "title": "إدارة المستفيدين",
+      "addTitle": "إضافة مستفيد",
+      "name": "الاسم",
+      "idNumber": "رقم الهوية",
+      "phone": "الهاتف",
+      "region": "المنطقة",
+      "status": "الحالة",
+      "priority": "الأولوية",
+      "addButton": "إضافة مستفيد",
+      "allPriorities": "كل الأولويات",
+      "allStatuses": "كل الحالات",
+      "priorities": {
+        "urgent": "عاجل",
+        "high": "عالي",
+        "medium": "متوسط",
+        "low": "منخفض"
+      }
+    },
+    "distributions": {
+      "title": "التوزيعات",
+      "addTitle": "إضافة توزيع",
+      "beneficiary": "المستفيد",
+      "product": "المنتج",
+      "quantity": "الكمية",
+      "date": "التاريخ",
+      "addButton": "إضافة توزيع"
+    },
+    "products": {
+      "title": "المنتجات",
+      "addTitle": "إضافة منتج",
+      "name": "اسم المنتج",
+      "unit": "الوحدة",
+      "quantity": "الكمية",
+      "addButton": "إضافة منتج"
+    },
+    "addAid": {
+      "title": "إضافة مساعدة",
+      "searchTitle": "البحث عن مستفيد",
+      "searchPlaceholder": "ابحث بالاسم أو رقم الهوية",
+      "aidType": "نوع المساعدة",
+      "amount": "الكمية",
+      "notes": "ملاحظات",
+      "addButton": "إضافة مساعدة"
+    },
+    "distributeAid": {
+      "title": "توزيع المساعدات",
+      "selectBeneficiary": "اختر مستفيداً",
+      "selectAid": "اختر مساعدة",
+      "quantity": "الكمية",
+      "addButton": "تسجيل التوزيع"
+    },
+    "addPlaces": {
+      "title": "إضافة مكان",
+      "name": "اسم المكان",
+      "type": "النوع",
+      "lat": "خط العرض",
+      "lng": "خط الطول",
+      "addButton": "إضافة المكان",
+      "types": {
+        "shelter": "مركز إيواء",
+        "hospital": "مستشفى",
+        "food": "نقطة غذاء",
+        "water": "نقطة مياه",
+        "other": "أخرى"
+      }
+    },
+    "adminBeneficiary": {
+      "title": "تسجيل مستفيد",
+      "name": "الاسم",
+      "idNumber": "رقم الهوية",
+      "phone": "الهاتف",
+      "address": "العنوان",
+      "familySize": "عدد أفراد الأسرة",
+      "addButton": "تسجيل المستفيد"
+    },
+    "emergency": {
+      "title": "إدارة حالات الطوارئ",
+      "addButton": "إضافة حالة طوارئ",
+      "caseType": "نوع الحالة",
+      "location": "الموقع",
+      "severity": "الخطورة"
+    },
+    "supervisors": {
+      "title": "إدارة المشرفين",
+      "addButton": "إضافة مشرف",
+      "shelter": "مركز الإيواء",
+      "role": "الدور"
+    },
+    "students": {
+      "title": "إدارة الطلاب",
+      "addButton": "إضافة طالب",
+      "school": "المدرسة",
+      "grade": "الصف",
+      "gender": "الجنس"
+    },
+    "schools": {
+      "title": "إدارة المدارس",
+      "addButton": "إضافة مدرسة"
+    },
+    "institutions": {
+      "title": "إدارة المؤسسات",
+      "addButton": "إضافة مؤسسة"
+    },
+    "map": {
+      "title": "خريطة الأماكن",
+      "subtitle": "مراكز الإيواء والمستشفيات والمساعدات",
+      "fullView": "عرض كامل"
+    }
+  },
+  "messages": {
+    "unauthorized": "وصول غير مصرح به.",
+    "system_error": "عفواً! حدث خطأ ما. يرجى المحاولة مرة أخرى بعد قليل.",
+    "invalid_input": "إدخال غير صالح. يرجى التحقق من بياناتك والمحاولة مرة أخرى.",
+    "data_not_found": "لم يتم العثور على البيانات المطلوبة.",
+    "delete_restricted_error": "لا يمكن حذف هذا السجل لأنه مرتبط بسجلات أخرى."
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي"
+  },
+  "userMenu": {
+    "pro": "احترافي",
+    "profileSection": "الملف الشخصي",
+    "viewProfile": "عرض الملف الشخصي",
+    "editProfile": "تعديل الملف الشخصي",
+    "preferences": "التفضيلات",
+    "language": "اللغة",
+    "theme": "الثيم",
+    "security": "الأمان",
+    "changePassword": "تغيير كلمة المرور",
+    "logout": "تسجيل الخروج"
+  },
+  "auth": {
+    "signin": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "signout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "welcomeBack": "مرحباً بعودتك",
+    "createAccount": "إنشاء حساب جديد"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ca68983c-24cf-48e5-b026-d3dc083ba808",
+    "name": "مدرسة احمد",
+    "type": "shelter",
+    "latitude": 66,
+    "longitude": 66,
+    "description": "هاملعهم",
+    "operator": "اونروا",
+    "capacity": 400,
+    "occupancy": 300,
+    "availableBeds": 80,
+    "statusText": "78",
+    "createdAt": "2026-03-13T12:00:25.013Z",
+    "updatedAt": "2026-03-13T12:00:25.013Z"
+  },
+  {
+    "id": "6e11e399-e097-4e70-af29-ea73c3b9a85e",
+    "name": "علن",
+    "type": "shelter",
+    "latitude": 21,
+    "longitude": 22,
+    "description": "يعت",
+    "operator": "هلال احمر",
+    "capacity": 222,
+    "occupancy": 200,
+    "availableBeds": 120,
+    "statusText": "120",
+    "createdAt": "2026-03-13T12:03:09.561Z",
+    "updatedAt": "2026-03-13T12:03:09.561Z"
+  },
+  {
+    "id": "39349800-e67d-4447-808a-9c9c35d8d7a8",
+    "name": "مدرسة احمد",
+    "type": "shelter",
+    "latitude": 30,
+    "longitude": 33,
+    "description": "تاغمبعخو ت",
+    "operator": "اونروا",
+    "capacity": 500,
+    "occupancy": 540,
+    "availableBeds": 80,
+    "statusText": "80",
+    "createdAt": "2026-03-13T13:28:48.687Z",
+    "updatedAt": "2026-03-13T13:28:48.687Z"
+  }
+]

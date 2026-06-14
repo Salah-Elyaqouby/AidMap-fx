@@ -1,0 +1,47 @@
+/* Tailwind Core */
+@import 'tailwindcss';
+
+/* ReUI Configs */
+@import './config.reui.css';
+
+/** Global Styles **/
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  *:focus-visible {
+    @apply outline-ring rounded-xs shadow-none outline-2 outline-offset-3 transition-none!;
+  }
+}
+
+/** AidMap semantic tokens (humanitarian shell) **/
+@layer base {
+  :root {
+    --aidmap-primary: 168 65% 32%;
+    --aidmap-urgent: 12 76% 51%;
+    --aidmap-bg: 210 20% 98%;
+    --aidmap-surface: 0 0% 100%;
+  }
+  .dark {
+    --aidmap-primary: 168 45% 45%;
+    --aidmap-urgent: 12 70% 55%;
+    --aidmap-bg: 222 20% 9%;
+    --aidmap-surface: 222 18% 14%;
+  }
+}
+
+/* Metronic Components  */
+@import './components/image-input.css';
+@import './components/apexcharts.css';
+@import './components/leaflet.css';
+@import './components/rating.css';
+@import './components/image-input.css';
+@import './components/scrollable.css';
+
+/* Demos */
+@import './demos/demo1.css';
+
+/** Dark/Light Theme Variant **/
+@custom-variant dark (&:is(.dark *));
+@custom-variant light (&:not(.dark *));
